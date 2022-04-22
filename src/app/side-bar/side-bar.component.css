@@ -17,4 +17,5 @@ app-list-users{
     display: flex;
     flex-direction: column;
     overflow-y: auto;
+    max-height: var(--list-friends-height);
 }
