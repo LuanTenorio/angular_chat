@@ -1,0 +1,20 @@
+.search-friend{
+    width: 100%;
+    padding: 25px 0px;
+    text-align: center;
+}
+input{
+    width: 85%;
+    padding: 12px 15px;
+    font-size: 15px;
+    background-color: #dedede;
+    border: 1px solid #f0f0f0;
+    border-radius: 20px;
+    color: #12282b;
+}
+app-list-users{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}

@@ -1,0 +1,18 @@
+app-user{
+    width: 100%;
+    background-color: #111b21;
+    display: inline-block;
+    border-bottom: 1px solid #878787;
+    padding: 7px;
+    cursor: pointer;
+    transition: .4s;
+}
+app-user:hover{
+    background-color: #2a3942;
+}
+app-user:nth-of-type(1){
+    border-top: 1px solid #878787;
+}
+app-user:nth-last-of-type(){
+    border-bottom: 0px solid transparent;
+}

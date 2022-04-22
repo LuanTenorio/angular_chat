@@ -1,0 +1,5 @@
+<!-- [class]="messageSide ? 'message-content left' : 'message-content right'" -->
+<div [ngClass]="message.send != userService.curUser.id ? 'message-content left' : 'message-content right'">
+    <p class="message">{{ message.content }}</p>
+    <p class="date-message">{{ chatService.getDateMessage(message) }}</p>
+</div>

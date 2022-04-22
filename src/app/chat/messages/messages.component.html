@@ -1,0 +1,6 @@
+<app-message 
+    *ngFor="let message of chatService.messageWithOpenUser" 
+    [message]="message"
+    [ngClass]="message.send != userService.curUser.id ? 'message-left' : 'message-right'"></app-message>
+<!-- <app-message [class]="messageSide ? 'message-left' : 'message-right'" [messageSide]="messageSide"></app-message>
+<app-message [class]="messageSidee ? 'message-left' : 'message-right'" [messageSide]="messageSidee"></app-message> -->

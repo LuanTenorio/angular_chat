@@ -1,0 +1,27 @@
+.message-content{
+    display: inline-block;
+    padding: 7px 10px;
+    background-color: aqua;
+    border-radius: 5px;
+    position: relative;
+}
+.message{
+    font-size: 1.1rem;
+}
+.date-message{
+    font-size: .75rem;
+}
+.left::before, .right::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+.left::before{
+    left: 0;
+}
+.right::before{
+    right: 0;
+}

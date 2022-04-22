@@ -1,0 +1,9 @@
+.friends{
+    width: var(--bar-width);
+    padding: 15px;
+    border-right: 1px solid #343e44;
+}
+.title-friend{
+    flex-grow: 1;
+    padding: 15px;
+}

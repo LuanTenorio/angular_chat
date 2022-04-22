@@ -1,0 +1,33 @@
+app-header{
+    width: 100%;
+    background-color: #202c33;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #262f34;
+    color: #cacaca;
+}
+main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+    /* height: var(--chat-heght); */
+}
+app-side-bar{
+    width: var(--bar-width);
+    border-right: 1px solid #262f34;
+    background-color: #111b21;
+    height: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+app-chat{
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

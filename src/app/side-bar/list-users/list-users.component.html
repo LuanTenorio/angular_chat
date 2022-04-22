@@ -1,0 +1,5 @@
+<app-user 
+    *ngFor="let friend of userService.filteredListFriends"
+    [friend]="friend"
+    (click)="updateFriendOpen(friend)">
+</app-user>
